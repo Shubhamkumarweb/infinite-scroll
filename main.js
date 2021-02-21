@@ -3,7 +3,7 @@ const url="https://picsum.photos/id/";
 function getRandom(){
  return Math.floor(Math.random()*300);
 }
-function loadImages(imagecount=10){
+function loadImages(imagecount=12){
 for(let i=0;i<imagecount;i++)
 {
     const img=document.createElement("img");
